@@ -18,7 +18,7 @@ class CreateReptilesTable extends Migration
             $table->string('species');
             $table->string('subspecies')->nullable();
             $table->string('common_name')->nullable();
-            $table->string('Familyetc')->nullable();
+            $table->string('familyetc')->nullable();
             $table->timestamps();
             $table->softDeletes();
         });
